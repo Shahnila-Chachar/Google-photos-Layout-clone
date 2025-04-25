@@ -1,0 +1,173 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+/* Header */
+.header{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 51%;
+  padding-left: 20px;
+}
+.icon {
+  width: 44%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.icon i {
+  font-size: 1.4rem;
+}
+.icon img {
+  width: 20%;
+  border-radius: 50%;
+  border: 0.01rem solid #dcdcdc;
+}
+
+
+/* Row 1 */
+.imageBoxes {
+  display: flex;
+  width: 94.5%;
+  justify-content: space-between;
+  margin: 10px;
+}
+.main {
+  width: 48.5%;
+  height: 35vh;
+  border-radius: 40px;
+  margin: 5px;
+  align-content: center;
+}
+.contact {
+  width: 100%;
+  height: 30vh;
+  border-radius: 30px;
+  background: #dcdcdc80;
+  align-content: center;
+  margin-top: 16px;
+}
+.upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upper div{
+  width: 33.5%;
+  height: 10vh;
+  border-radius: 50%;
+  background: #357671;
+  margin: 3px 3px;
+}
+
+.lower {
+  display: flex;
+  justify-content: center;
+}
+.lower div{
+  width: 33.5%;
+  height: 10vh;
+  border-radius: 50%;
+  background: #dcdcdc;
+  margin: 3px 3px;
+}
+
+.recoveryBox {
+  display: flex;
+  width: 94.5%;
+  height: 10vh;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+.row1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+   gap: 10%;
+  padding-left: 16px;
+  margin: 5px;
+  width: 49%;
+  height: 9vh;
+  border: 1px solid #dcdcdc;
+  border-radius: 28px 28px;
+}
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: ;
+  gap: 5%;
+  padding-left: 8px;
+  margin: 5px;
+  width: 49%;
+  height: 9vh;
+  border: 1px solid #dcdcdc;
+  border-radius: 28px 28px;
+}
+.recoveryBox i {
+  color: blue;
+  font-size: 19px;
+}
+.main p {
+  font-size: 16px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+
+.footList {
+  display: flex; 
+  flex-direction: column;
+  width: 95%;
+  height: 50vh;
+  
+  justify-content: space-evenly;
+  margin-top: 52px;
+}
+.listItems {
+  display: flex;
+  height: 40vh;
+  padding-left: 35px;
+  align-items: center;
+  gap: 22px;
+  font-size: 18px;
+}
+.listItems i {
+  font-size: 23px;
+}
+hr {
+  width: 86%;
+  height: 0.3rem;
+  border: none;
+  background: #dcdcdc90;
+  outline: none;
+  align-self: center;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #87CEEB20;
+  align-items: center;
+}
+.footer i {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.footer i p {
+  font-size: 14px;
+}
